@@ -25,7 +25,7 @@
     "href": "posts/goszakup/index.html",
     "title": "Public Procurement Analysis",
     "section": "",
-    "text": "library(dygraphs)\ndygraph(fdeaths, \"Female Deaths\")\ndygraph(mdeaths, \"Male Deaths\")\ndygraph(ldeaths, \"All Deaths\")"
+    "text": "alt text here\n\n\n \n\nlibrary(dygraphs)\ndygraph(fdeaths, \"Female Deaths\")\ndygraph(mdeaths, \"Male Deaths\")\ndygraph(ldeaths, \"All Deaths\")"
   },
   {
     "objectID": "posts/post-with-code/index.html",
