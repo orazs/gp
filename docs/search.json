@@ -39,14 +39,77 @@
     "href": "posts/real-estate/index.html",
     "title": "Real Estate Analysis",
     "section": "",
-    "text": "library(dygraphs)\ndygraph(fdeaths, \"Female Deaths\")\ndygraph(mdeaths, \"Male Deaths\")\ndygraph(ldeaths, \"All Deaths\")"
+    "text": "Те, кто покупал жилье (а значит, почти все), знают, как иногда трудно сравнить между собой имеющиеся варианты. Десятки разных факторов влияют на окончательный выбор, причем цена самый очевидный из них. В конце концов, при прочих равных, оставливаются на пересечении хороший дом/хорошая квартира. Вопрос - как измерить “хороший дом” или “хорошая квартира”"
+  },
+  {
+    "objectID": "posts/real-estate/index.html#реализация",
+    "href": "posts/real-estate/index.html#реализация",
+    "title": "Real Estate Analysis",
+    "section": "Реализация",
+    "text": "Реализация\nДля каждого ЖК нужно рассчитать два дополнительных рейтинга : flat_rate и building_rate. Действительно, дом сам по себе может быть исключительно хорошим (мало домов, мало квартир, подземный паркинг, материалы итд) но квартиры могут оставлять лучшего (низкие потолки, маленькая площадь, отсутствие отделки). Перекодировав эти факторы в численные (почти все они ordered, что облегчает задачу), можно рассчитать необходимые значения. Поскольку данные разного масштаба, в процессе применялось логарифмирование и нормирование\nflat_rate - минимальная площадь (чем больше, тем лучше) - отделка - этажность (чем выше, тем хуже) - высота потолков\nbuilding_rate - класс - паркинг - кол-во домов (чем больше, тем хуже) - кол-во квартир (аналогично) - технология (панели хуже, чем кирпич итд) - двор (закрытый лучше, чем открытый)"
+  },
+  {
+    "objectID": "posts/real-estate/index.html#как-пользоваться",
+    "href": "posts/real-estate/index.html#как-пользоваться",
+    "title": "Real Estate Analysis",
+    "section": "Как пользоваться",
+    "text": "Как пользоваться\n\nВыбрать интересующий район.\nКрасные линии это средние значения, все, что выше/правее среднего, может быть потенциально интересно\nВыделить точки на графике, размер точки пропорционален стоймости кв.метра"
+  },
+  {
+    "objectID": "posts/real-estate/index.html#вывод",
+    "href": "posts/real-estate/index.html#вывод",
+    "title": "Real Estate Analysis",
+    "section": "Вывод",
+    "text": "Вывод\nПонятно, что это очень упрощенный подход. Не учитывалась локация, инфраструктура и многое другое. Но это уже дело техники. Оценку можно значительно улучшить присвоив каждому фактору вес,его можно вычислить опытным путем либо опросить экспертов. Вы можете заполнить форму и указать, какой,по вашему мнению, вес имеет каждый из факторов."
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Визуализация сальдо миграции в разрезе областей и специальностей. Показаны агрегированные значения"
+  },
+  {
+    "objectID": "posts/welcome/index.html#данные",
+    "href": "posts/welcome/index.html#данные",
+    "title": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.",
+    "section": "Данные",
+    "text": "Данные\nКомитет Статистики РК"
+  },
+  {
+    "objectID": "posts/welcome/index.html#вывод",
+    "href": "posts/welcome/index.html#вывод",
+    "title": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.",
+    "section": "Вывод",
+    "text": "Вывод\nВсе плохо, ребята.\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/deputies/index.html",
+    "href": "posts/deputies/index.html",
+    "title": "Public Procurement Analysis",
+    "section": "",
+    "text": "Визуализировать деятельность депутатов Сената РК 6 созыва."
+  },
+  {
+    "objectID": "posts/deputies/index.html#данные",
+    "href": "posts/deputies/index.html#данные",
+    "title": "Public Procurement Analysis",
+    "section": "Данные",
+    "text": "Данные\n\nДанные взяты с сайта Сената РК методом скраппинга.\nСписок депутатов"
+  },
+  {
+    "objectID": "posts/deputies/index.html#реализация",
+    "href": "posts/deputies/index.html#реализация",
+    "title": "Public Procurement Analysis",
+    "section": "Реализация",
+    "text": "Реализация\n\nВовлеченность: количество участий в общих депутатских запросах\nИнициативность: Количество запросов, в которых депутат был инициатором"
+  },
+  {
+    "objectID": "posts/deputies/index.html#вывод",
+    "href": "posts/deputies/index.html#вывод",
+    "title": "Public Procurement Analysis",
+    "section": "Вывод",
+    "text": "Вывод\nДепутаты, попавшие в Сенат через указ президента наименее вовлеченные и инициативные Хочу сделать wordcloud на основе описания запроса, думаю, будет интересно"
   },
   {
     "objectID": "posts/Almaty condominium analysis/index.html",
@@ -60,6 +123,6 @@
     "href": "index.html",
     "title": "rsite",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nAug 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReal Estate Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCondominium Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nAug 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nAug 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot2 demo\n\n\n\n\n\n\nNorah Jones\n\n\nMay 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublic Procurement Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 5, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nAug 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReal Estate Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCondominium Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nAug 12, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nСальдо внешней миграции по специальностям и регионам за 2000-2019 гг.\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nAug 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot2 demo\n\n\n\n\n\n\nNorah Jones\n\n\nMay 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublic Procurement Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublic Procurement Analysis\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 5, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.269">
@@ -9,7 +9,7 @@
 <meta name="author" content="Tristan O’Malley">
 <meta name="dcterms.date" content="2023-08-12">
 
-<title>rsite - Welcome To My Blog</title>
+<title>rsite - Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,9 +69,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="rsite - Welcome To My Blog">
-<meta property="og:description" content="This is the first post in a Quarto blog. Welcome!">
-<meta property="og:image" content="thumbnail.jpg">
+<meta property="og:title" content="rsite - Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.">
+<meta property="og:description" content="Визуализация сальдо миграции в разрезе областей и специальностей. Показаны агрегированные значения">
 <meta property="og:site-name" content="rsite">
 </head>
 
@@ -115,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
               </div>
@@ -184,14 +183,84 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
+<section id="идея" class="level2">
+<h2 class="anchored" data-anchor-id="идея">Идея</h2>
+<p>Визуализация сальдо миграции в разрезе областей и специальностей. Показаны агрегированные значения</p>
+</section>
+<section id="данные" class="level2">
+<h2 class="anchored" data-anchor-id="данные">Данные</h2>
+<p><a href="https://taldau.stat.gov.kz/ru">Комитет Статистики РК</a></p>
+</section>
+<section id="вывод" class="level2">
+<h2 class="anchored" data-anchor-id="вывод">Вывод</h2>
+<p>Все плохо, ребята.</p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=64dc53086dbfde0012ce1002&amp;product=sticky-share-buttons&amp;source=platform" async="async"></script>
+
+
+
+
+  <meta charset="utf-8">
+
+<style> 
+.names{font-size:12px} body{font-family:Roboto}
+
+svg:hover rect:not(:hover) { opacity: .5; }
+
+.cards text{
+  font-size:12px;
+
+  
+}
+.cards text:hover {
+  font-size:16px;
+  color:white;
+  
+}
+body{
+  font-family:Roboto;
+}
+.reg{
+  font-family:Roboto;
+  color:#ccc;
+  font-size:10px;
+}
+
+#chart{
+  margin:auto;
+  width:100%;
+  color:steelblue;
+}
+.legend text{
+  font-size:10px;
+}
+
+.labels{
+  font-size: 10px;
+}
+
+
+</style>
+
+
+  <script src="../static/js/d3.js"></script> 
+<div class="tooltip"> </div>
+
+
+  <div id="chart">
+
+  </div>
+
+<script src="../static/js/heatmap.js"></script> 
+
+ 
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
