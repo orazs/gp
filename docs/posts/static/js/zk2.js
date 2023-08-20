@@ -5,7 +5,7 @@ var rowchart =  new dc.RowChart("#filter1")
 var rowchart2 =  new dc.RowChart("#filter2")
  const numberFormat = d3.format('.2f')
 
-d3.csv("https://raw.githubusercontent.com/orazs/gp/main/docs/korter_final.csv").then(function(data){
+d3.csv("https://raw.githubusercontent.com/orazs/fair-premium/main/korter_final.csv").then(function(data){
 
 data.forEach(d=>{
 d.building_rate=+d.building_rate;
