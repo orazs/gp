@@ -4,14 +4,28 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Accomplished Data Analyst with a passion for delivering valuable data through analytical functions and data retrieval methods. Strong data engineering and team leading background. Committed to helping companies advance by helping them to develop strategic plans based on predictive modelling and findings."
+    "text": "Hey! Thank you for taking your time and visiting this blog. I’m passionate data enthusiast  ✊ with 10+ years of experience as data engineer/analyst/team-lead. Currently providing data analysis services as a consultant. My interests includes quantative trading, public proqurement exploration and customer behaviour analysis."
   },
   {
-    "objectID": "posts/almaty_real_estate/index.html#идея",
-    "href": "posts/almaty_real_estate/index.html#идея",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nQostany State Institute | MS in Computer Science | 2011\nQostany State Institute | B.A in Mathematics | 2008"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nSkilling | Data Analyst | Jan 2023 - present\nEPAM Spain | Lead Data Analyst | Oct 2021 - Oct 2022"
+  },
+  {
+    "objectID": "posts/almaty_real_estate/index.html",
+    "href": "posts/almaty_real_estate/index.html",
     "title": "Almaty condominium comparison analysis",
-    "section": "Идея",
-    "text": "Идея\nТе, кто покупал жилье (а значит, почти все), знают, как иногда трудно сравнить между собой имеющиеся варианты. Десятки разных факторов влияют на окончательный выбор, причем цена самый очевидный из них. В конце концов, при прочих равных, оставливаются на пересечении хороший дом/хорошая квартира. Вопрос - как измерить “хороший дом” или “хорошая квартира”\n\n\n\nsome random text"
+    "section": "",
+    "text": "Те, кто покупал жилье (а значит, почти все), знают, как иногда трудно сравнить между собой имеющиеся варианты. Десятки разных факторов влияют на окончательный выбор, причем цена самый очевидный из них. В конце концов, при прочих равных, оставливаются на пересечении хороший дом/хорошая квартира. Вопрос - как измерить “хороший дом” или “хорошая квартира”\n\n\n\nsome random text"
   },
   {
     "objectID": "posts/almaty_real_estate/index.html#реализация",
@@ -63,31 +77,31 @@
     "text": "Вывод\nДепутаты, попавшие в Сенат через указ президента наименее вовлеченные и инициативные Хочу сделать wordcloud на основе описания запроса, думаю, будет интересно"
   },
   {
-    "objectID": "posts/migration_saldo/index.html",
-    "href": "posts/migration_saldo/index.html",
-    "title": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.",
-    "section": "",
-    "text": "Визуализация сальдо миграции в разрезе областей и специальностей. Показаны агрегированные значения"
+    "objectID": "posts/migration_saldo/index.html#идея",
+    "href": "posts/migration_saldo/index.html#идея",
+    "title": "Kazakhstan population migration 2000-2022",
+    "section": "Идея",
+    "text": "Идея\nВизуализация сальдо миграции в разрезе областей и специальностей. Показаны агрегированные значения"
   },
   {
     "objectID": "posts/migration_saldo/index.html#данные",
     "href": "posts/migration_saldo/index.html#данные",
-    "title": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.",
+    "title": "Kazakhstan population migration 2000-2022",
     "section": "Данные",
     "text": "Данные\nКомитет Статистики РК"
   },
   {
     "objectID": "posts/migration_saldo/index.html#вывод",
     "href": "posts/migration_saldo/index.html#вывод",
-    "title": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.",
+    "title": "Kazakhstan population migration 2000-2022",
     "section": "Вывод",
     "text": "Вывод\nВсе плохо, ребята.\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "rsite",
+    "title": "",
     "section": "",
-    "text": "Сальдо внешней миграции по специальностям и регионам за 2000-2019 гг.\n\n\n\nd3\n\n\nopendata\n\n\n\n\n\n\n\nShakirov Oraz\n\n\nAug 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlmaty condominium comparison analysis\n\n\n\nscrapping\n\n\nd3\n\n\nR\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlmaty labor market analysis\n\n\n\nopendata\n\n\nd3\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKazakhstan Senat deputies performance comparison\n\n\n\nopendata\n\n\nd3\n\n\n\n\n\n\n\nOraz Shakirov\n\n\nAug 5, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Kazakhstan population migration 2000-2022\n\n\nWhere are you going to/from\n\n\n\n\nd3\n\n\nopendata\n\n\n\n\n\n\n\n\n\n\n\nAug 12, 2023\n\n\nOraz Shakirov\n\n\n\n\n\n\n  \n\n\n\n\nAlmaty condominium comparison analysis\n\n\n\n\n\n\n\nscrapping\n\n\nd3\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nAug 15, 2022\n\n\nOraz Shakirov\n\n\n\n\n\n\n  \n\n\n\n\nAlmaty labor market analysis\n\n\nHow much do you earn? Local job board survey\n\n\n\n\nopendata\n\n\nd3\n\n\n\n\n\n\n\n\n\n\n\nAug 5, 2022\n\n\nOraz Shakirov\n\n\n\n\n\n\n  \n\n\n\n\nKazakhstan Senat deputies performance comparison\n\n\n\n\n\n\n\nopendata\n\n\nd3\n\n\n\n\n\n\n\n\n\n\n\nAug 5, 2022\n\n\nOraz Shakirov\n\n\n\n\n\n\nNo matching items"
   }
 ]
